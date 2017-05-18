@@ -1,22 +1,21 @@
 body {
 	background-color: #ffffcc;
+
 }
 main {
 	margin-left: auto;
 	margin-right: auto;
 }
 
-div {
+div.img {
+	width:90%;
 	min-height: 600px;
-	max-height: 600px;
 	margin-left: auto;
 	margin-right: auto;
 	background: url("images/IMG_5280.jpg") no-repeat center center;
 	background-size: cover;
-	border: 10px dotted #cc3333;	
-}
-.img {
-	opacity: 0.5;
+	outline: 10px dotted #cc3333;
+	opacity: 0.5;	
 }
 p {
 	margin-top:0;
